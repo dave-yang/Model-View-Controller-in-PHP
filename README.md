@@ -52,7 +52,7 @@ You can think of a service as a bridge between Data Mappers and Domain Objects. 
 So what could be UI logic itself? Imagine if you were rending a drop-down menu recursively. Rendering menu has nothing to do with a model, since it's all about presentation.  So the function that does recursive rendering would go to View layer. In a template, you would call that function and `echo` its returned value.
 
 
-### Rule #4: Controllers
+### Rule #4: Thin controllers
 
 Controllers are only responsible for variable assignments. (also known as "Altering state"). Controllers usually have several methods (also known as "actions"), that respond to route matches.
 
