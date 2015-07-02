@@ -24,7 +24,7 @@ This approach introduces major disadvantages:
    What if you decide to switch to MongoDB/ArangoDB from MySQL in future? You will have to touch domain logic as well, which by the way has nothing to do with data storage!  What if you want only to render all records. In that case you don't care about data validation, right? But validation code is always gets inherited!
 
  - That breaks the Single-Responsibility-Principle
-   Because so-called "model" class has more that one reason to change.
+   Because so-called "model" class has more than one reason to change.
 
  - This eats more RAM and takes more milliseconds to parse the script.
    As mentioned in the first item, you have to parse (in most cases) a lot of code that is not related and not needed.
