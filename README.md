@@ -28,9 +28,9 @@ This approach introduces major disadvantages:
 
  - This eats more RAM and takes more milliseconds to parse the script.
    As mentioned in the first item, you have to parse (in most cases) a lot of code that is not related and not needed.
- 
+
  - Harder to test in isolation
-   Much harder, since it becomes much harder to mock objects
+   Since it becomes much harder to mock objects due to global state
 
 Calling model a class, is like calling: 
 
