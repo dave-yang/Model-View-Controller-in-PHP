@@ -56,7 +56,8 @@ class BookManager
 	 * An copy of input must be passed to this method
 	 * In case you're managing files, the checking also needs to be done here (not in the controller!)
 	 * 
-	 * @param array $input
+	 * @param array $input Raw input data
+	 * @return boolean Depending on success
 	 */
 	public function add(array $input)
 	{
@@ -66,6 +67,6 @@ class BookManager
 		 * 
 		 */
 	}
-	
+
 	// ... The rest ...
 }
