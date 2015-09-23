@@ -6,7 +6,7 @@
  * Copyright (c) No Global State Lab
  */
 
-namespace Mvc;
+namespace Module;
 
 /**
  * Controllers in MVC are responsible for variable assignments (also known as altering state). 

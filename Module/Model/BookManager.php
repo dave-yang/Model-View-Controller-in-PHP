@@ -6,9 +6,9 @@
  * Copyright (c) No Global State Lab
  */
 
-namespace Mvc\Model;
+namespace Module\Model;
 
-use Mvc\Storage\BookMapperInterface;
+use Module\Storage\BookMapperInterface;
 
 /**
  * A service is just a bridge between data mappers and domain objects, which later gets called inside controllers.
@@ -22,7 +22,6 @@ use Mvc\Storage\BookMapperInterface;
  */
 class BookManager
 {
-	
 	private $bookMapper;
 	
 	

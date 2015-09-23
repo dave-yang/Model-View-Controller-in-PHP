@@ -6,7 +6,7 @@
  * Copyright (c) No Global State Lab
  */
 
-namespace Mvc\Model\Storage;
+namespace Module\Model\Storage;
 
 /* No matter what kind of data storage you're going to use. They all must implement this interface */
 interface BookMapperInterface

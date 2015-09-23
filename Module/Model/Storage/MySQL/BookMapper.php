@@ -6,10 +6,10 @@
  * Copyright (c) No Global State Lab
  */
 
-namespace Mvc\Model\Storage\MySQL;
+namespace Module\Model\Storage\MySQL;
 
 use PDO;
-use Mvc\Model\Storage\BookMapperInterface;
+use Module\Model\Storage\BookMapperInterface;
 
 /**
  * A mapper is a class that abstracts storage interactions.
