@@ -3,7 +3,7 @@
 /**
  * Pure MVC for web demonstration
  * 
- * (c) David Yang
+ * Copyright (c) No Global State Lab
  */
 
 namespace Mvc;
