@@ -22,9 +22,19 @@ use Module\Storage\BookMapperInterface;
  */
 class BookManager
 {
+	/**
+	 * Any compliant book mapper (i.e regarding engine)
+	 * 
+	 * @var \Module\Storage\BookMapperInterface
+	 */
 	private $bookMapper;
-	
-	
+
+	/**
+	 * State initialization
+	 * 
+	 * @param \Module\Storage\BookMapperInterface $bookMapper
+	 * @return void
+	 */
 	public function __construct(BookMapperInterface $bookMapper)
 	{
 		$this->bookMapper = $bookMapper;
